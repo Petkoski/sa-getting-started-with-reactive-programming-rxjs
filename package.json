@@ -1,0 +1,21 @@
+{
+  "name": "sagettingstartedwithrxjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "typings": "^2.1.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
